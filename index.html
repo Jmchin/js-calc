@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Javascript Calculator</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+</head>
+
+<div class="wrapper">
+  <header>
+    <!-- <h2>Javascript Calculator</h2> -->
+  </header>
+
+  <body>
+    <div class="container--main">
+      <div class="calc body">
+        <div class="calc calc--top">
+          <span class="name">JS-01P<br>Basic Calculator</span><span class="logo">JS</span>
+        </div>
+        <div class="calc display">
+            <span id="num-display"></span>
+        </div>
+        <div id="button-tbl" class="calc container--btn">
+          <div class="calc numbers">
+            <button id="decimal" value=".">.</button>
+            <button id="zero" value="0">0</button>
+            <button id="equal" value="=">=</button>
+            <button id="one" value="1">1</button>
+            <button id="two" value="2">2</button>
+            <button id="three" value="3">3</button>
+            <button id="four" value="4">4</button>
+            <button id="five" value="5">5</button>
+            <button id="six" value="6">6</button>
+            <button id="seven" value="7">7</button>
+            <button id="eight"value="8">8</button>
+            <button id="nine" value="9">9</button>
+          </div>
+          <div class="calc operators">
+            <button id="AC" value="AC">AC</button>
+            <button id="DEL" value="DEL">DEL</button>
+            <button id="divide" value="/">/</button>
+            <button id="multiply" value="*">x</button>
+            <button id="subtact" value="-">-</button>
+            <button id="add" value="+">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</div>
+
+<footer>Made by <a href="http://www.github.com/jmchin">Justin Chin</a></footer>
+
+<script src="main.js"></script>
+
+</html>

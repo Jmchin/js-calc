@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: auto;
+  background: #78a4ac;
+}
+body {
+  margin: 0;
+}
+.calc {
+  font-family: 'Ubuntu', sans-serif;
+}
+.wrapper {
+  padding-top: 9%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  width: 100%;
+  flex: 1 1 auto;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.calc--top {
+  width: 100%;
+  font-family: 'Share Tech Mono';
+  color: #fff;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.name {
+  float: left;
+  padding: .6em 0 0 .8em;
+}
+.logo {
+  float: right;
+  padding: 1em .8em 0 0;
+}
+.body {
+  display: flex;
+  width: 500px;
+  height: 640px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #202020;
+}
+.display {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 90%;
+  height: 11%;
+  /*border: 1.5px solid red;*/
+  margin: 1em 0 1.5em 0;
+  background: #b1cc93;
+}
+.display span {
+  font-size: 36px;
+  color: #575757;
+  margin: 0 5px 0 5px;
+  overflow: hidden;
+}
+.container--btn {
+  flex: 1 1 auto;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+.numbers {
+  width: 60%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  padding-left: 2%;
+}
+.operators {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  font-size: 1.5em;
+  background: #2e2e2e;
+  color: #dddddd;
+  border-style: none;
+  border-color: none;
+}
+button:active {
+  background: #262626;
+}
+.numbers button {
+  width: 30%;
+  margin: 5px;
+  flex: 1 0 auto;
+}
+.operators button {
+  width: 80%;
+  margin: 5px;
+  flex: 1 0 auto;
+}
+#equal {
+  color: #b1cc93;
+}
+#AC {
+  color: #ff6b6b;
+}
+#DEL {
+  color: #ffb96a;
+}
+
+footer {
+  font-family: 'Share Tech Mono';
+  text-align: center;
+  padding-top: 8px;
+}
+
+footer a {
+  text-decoration: none;
+}
